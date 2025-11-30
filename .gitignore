@@ -40,4 +40,4 @@ build/
 .idea/
 target/
 pom.xml
-org.example/
+org/example/
