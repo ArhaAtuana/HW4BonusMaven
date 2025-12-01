@@ -1,5 +1,5 @@
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 public class BonusServiceTest {
 
@@ -50,6 +50,7 @@ public class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void shouldCalculateForUnRegisteredAndOverLimit() {
         BonusService service = new BonusService();
